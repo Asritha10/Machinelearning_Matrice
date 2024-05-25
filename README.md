@@ -6,8 +6,8 @@ backbone and modify the head to train using two datasets at the same time.
 ## Overview
 1. Download the Appliance Dataset and Food Dataset as your datasets for training. They are
    already in MSCOCO format.
-2. Modify the EfficientDet-D0 model from EfficientDet paper to use the CSPDarknet53 model from
-   the YOLOv4 paper as the backbone.
+2. Modify the EfficientDet-D0 model from EfficientDet paper`https://arxiv.org/pdf/1911.09070` to use the CSPDarknet53 model from
+   the YOLOv4 paper`https://arxiv.org/pdf/2004.10934` as the backbone.
 3. Add one more head to the backbone so that you can train using two datasets at the same time.
 4. Modify the data preprocessing code of EfficientDet to include the data augmentation from
    YOLOv4.
@@ -26,6 +26,6 @@ backbone and modify the head to train using two datasets at the same time.
 - Google Collaboratory
 
 ## Usage
-1. Clone the repository: `git clone https://github.com/your-username/ml-assignment-madamh.git`
+1. Clone the repository: `https://github.com/Asritha10/Machinelearning_Matrice.git`
 2. Install the required dependencies
 3. Run the code directly in google collaboratory
